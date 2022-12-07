@@ -18,7 +18,7 @@ public class CastingParctice1 {
 	    System.out.println((double)iNum1);
 	    
 	    System.out.println((float)iNum1 /iNum2);
-	    System.out.println( dNum);
+	    System.out.println( dNum );
 	    
 	    System.out.println((int)fNum);
 	    System.out.println(iNum1 / (int)fNum);
@@ -26,9 +26,9 @@ public class CastingParctice1 {
 	    System.out.println(iNum1 / fNum);
 	    System.out.println(iNum1 / (double)fNum);
 	    
-	    System.out.println( ch ); // 'A'
+	    System.out.println( "'" + ch + "'"); // 'A'
 	    System.out.println( (int)ch ); // 65
 	    System.out.println( ch + iNum1 ); // 75
-	    System.out.println((char)ch + (char)iNum1) ; // 'K'
+	    System.out.println("'" + (char)(ch + iNum1) + "'") ; // 'K'
 	}
 }
